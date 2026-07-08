@@ -9,9 +9,12 @@ body{
     min-height:100vh;
     display:flex;
     justify-content:center;
-    align-items:center;
-    padding:40px;
-    overflow:hidden;
+    align-items:flex-start;
+    padding:60px 40px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    box-sizing:border-box;
+
     background:linear-gradient(-45deg,#1d1239,#101f42,#10334d,#241143);
     background-size:400% 400%;
     animation:fondo 12s ease infinite;
